@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Merriweather&family=Yeseva+One&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(168, 164, 164);
+    /* background-image: url(./C:\Users\Prasad Rathod\OneDrive\Documents\Prepbytes\CSS\handson3css\.vscode); */
+}
+.first{
+    height: 120px;
+    width: 300px;
+    border: 6px solid red;
+    border-radius: 16px;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 3px rgb(152, 4, 88);
+    background-color: white;
+    position: relative;
+    left: 420px; 
+    top: 10px;
+}
+h2{
+    text-align: center;
+    color: brown;
+    text-shadow: 2px 1px 2px brown;
+    font-style: italic;
+    font-weight: bold;
+}
+.horizontal{
+    margin-top: 20px;
+}
+.mainbody{
+    border: 8px solid green;
+    height: 800px;
+}
+.boxex{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.box{
+    height: 260px;
+    width: 260px;
+    border: 6px solid red;
+    box-shadow: 5px 5px 2px 3px rgb(160, 9, 145);
+    background-color: white;
+    margin: 5px;
+    border-radius: 17px;
+    /* justify-content: space-around; */
+}
+.one{
+   font-size: 25px; 
+   text-align: center;
+   color: rgb(14, 0, 0);
+   /* text-shadow: 5px 5px 10px 10px rgb(146, 10, 141); */
+}
+h3{
+    text-shadow: 1px 1px 3px rgb(165, 21, 146);
+}
+.two{
+    margin-left: 580px;
+}
+.fit{
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    padding-left: 30px;
+    padding-top: 30px;
+    object-fit: cover;
+}
+
+.three{
+   font-size: 25px; 
+   /* text-align: center; */
+   color: rgb(14, 0, 0);
+   margin-top: 75px;
+}
+.fornt{
+    
+    text-shadow: 1px 2px 3px rgb(165, 21, 146);
+}
+.four{
+    display: flex;
+    height: 90px;
+    width: 500px;
+    position: relative;
+    left: 315px;
+    bottom: 40px;
+    position: fixed;
+    background-color: greenyellow;
+
+}
+.five{
+    position: relative;
+    top: 72px;
+    left: 575px;
+    /* left: 575px; */
+    text-align: center;
+    padding-top: 5px;
+    font-size: 25px;
+    font-size: 22px;
+}
+label{
+    font-size: small;
+    color: brown;
+    text-shadow: 2px 2px 2px rgb(158, 11, 169) ;
+}
+.fontt{
+    text-shadow: 0px 0px 1px brown;
+    font-style: italic;
+    position: relative;
+    left: 24px;
+    /* top: 1px; */
+}
+h4{
+    color: brown;
+    font-style: italic;
+    padding-left: 80px;
+    padding-top: 5px;
+    font-weight: bolder;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px brown;
+}
+span{
+    text-align: center;
+    margin-left: 50px;
+}
+.endmain{
+    background-color: green;
+    height: 600px;
+    width: 800px;
+    position: relative;
+    left: 175px;
+    top: 20px;
+    border: 5px solid rgb(161, 11, 161);
+    
+}
+.welcome{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    top: 14px;
+
+} 
+.endbox{
+    display: flex;
+}
+.menu{
+    border: 1px solid rgb(167, 163, 163);
+    height: 250px;
+    width: 400px;
+    position: relative;
+    top: 30px;
+    margin: 5px;
+    background-color: rgb(251, 251, 3);
+}
+.wid{
+    border: 1px solid rgb(167, 163, 163);
+    height: 250px;
+    width: 795px;
+    position: relative;
+    top: 30px;
+    left: 5px;
+    margin: 5px;
+    background-color: yellow;
+    /* justify-content: center; */
+}
+.fruits{
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+}
+.para{
+    text-align: center;
+    /* font-family: 'Merriweather', serif; */
+    /* font-weight: lighter; */
+    line-height: 30px;
+    font-style: italic;
+}
+.endgame{
+    border: 5px solid red;
+    height: 90px;
+    width: 530px;
+    border-radius: 15px;
+    background-color: yellowgreen;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    left: 315px;
+    bottom: 50px;
+    z-index: 999999;
+    position: fixed;
+    box-shadow: 3px 3px 2px 3px rgb(115, 9, 96);
+}
+.endtext{
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(119, 33, 33);
+    text-shadow: 0px 0px 1px black;
+    position: relative;
+    top: 15px;
+    right: 100px;
+    /* display: flex; */
+}
+.cen{
+    left: 30px;
+}
+.chhota{
+    font-family: 'Yeseva One', cursive;
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(102, 20, 20);
+    text-shadow: 0px 0px 1px rgb(250, 249, 249);
+    position: relative;
+    bottom: 50px;
+    left: 265px;
+        
+}
